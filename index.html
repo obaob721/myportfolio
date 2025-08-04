@@ -1,42 +1,112 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    </head>
-    <body>
-        <div class="main">
-          <div class="navbar">
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
             <img src="img/logo.png" class="logo">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-          </div>
-            <div class="info">
-                <h3> <span>Hi</span>, I'm Patricia Ann Mae Obaob.</h3>
-                <h1><span>W</span>eb Designer & <br><span>F</span>ront- <span>E</span>nd Developer</h1>
-                <h3>An enthusiastic Web & Front-End Developer who is willing to create a clean <br>
-                    responsive website and transform them into visually <br> appealing for user experiences. </h3>
-                    <a href="#">Hire Me</a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">| About</a></li>
+                <li><a href="#service">| Service</a></li>
+                <li><a href="#projects">| Projects</a></li>
+                <li><a href="#contact">| Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="info" id="home">
+            <h3> <span>Hi</span>, I'm Patricia Ann Mae Obaob.</h3>
+            <h1><span>W</span>eb Designer & <br><span>F</span>ront- <span>E</span>nd Developer</h1>
+            <h3>An enthusiastic Web & Front-End Developer who is willing to create <br>a clean
+                responsive website and transform them into visually <br> appealing for user experiences. </h3>
+            <a href="#">Hire Me</a>
+        </div>
+
+        <div class="image">
+            <img src="img/myfeces.png" class="myfece">
+        </div>
+
+        <div class="social-links">
+            <a href="https://www.facebook.com/lloydjunrexmichael.largo" target="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://ph.pinterest.com/patriciaannmaeobaob721" target="#"><i class="fa-brands fa-square-pinterest"></i></a>
+            <a href="https://www.instagram.com/ky_patia" target="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.youtube.com/@ky_patia_patia" target="#"><i class="fa-brands fa-square-youtube"></i></a>
+        </div>
+    </div>
+
+    <div class="main" id="about">
+        <div class="about">
+            <div class="about-text">
+                <h1>So, <span>About Me</span></h1>
+                <h3><br> I’m Patricia Ann Mae Obaob <br> A passionate Web Designer and Front-End Developer based in Pitalo, San Fernando, Cebu. I’m currently a 3rd year Bachelor of Science in Information Technology student at St. Cecilia's College.
+                    At 20 years old, I enjoy crafting clean, responsive, and user-friendly websites. I aim to create digital experiences that not only look good but also provide smooth interaction and usability. I believe in building interfaces that invite exploration and enhance user engagement.
+                    </h3>
+                
+                <div class="what-i-do">
+                    <h4>What I Do</h4>
+                    <div class="skill-item">
+                        <span>✓</span>
+                        <span>Create simple and clean websites</span>
+                    </div>
+                    <div class="skill-item">
+                        <span>✓</span>
+                        <span>Design user-friendly layouts</span>
+                    </div>
+                    <div class="skill-item">
+                        <span>✓</span>
+                        <span>Learn new technologies</span>
+                    </div>
+                    <div class="skill-item">
+                        <span>✓</span>
+                        <span>Work on personal projects</span>
+                    </div>
                 </div>
-            <div class="image">
-                <img src="img/myfeces.png" class="myfece">                               
             </div>
-              <div class="social-links">
-                <a href="https://www.facebook.com/lloydjunrexmichael.largo" target="#"><i class="fa-brands fa-square-facebook"></i></a>
-                <a href="https://ph.pinterest.com/patriciaannmaeobaob721" target="#"><span><i class="fa-brands fa-square-pinterest"></i></span></a>
-                <a href="https://www.instagram.com/ky_patia" target="#"><i class="fa-brands fa-square-instagram"></i></a>
-                <a href="https://www.youtube.com/@ky_patia_patia" target="#"><span><i class="fa-brands fa-square-youtube"></i></span></a>
-             </div>
-          </div>
-         
-    </body>
+            <div class="about-image">
+                <img src="img/myfeces.png" class="myfece">
+            </div>
+        </div>
+    </div>
 
+    <div class="main" id="service">
+        <div class="services">
+            <div class="services-text">
+                <h1>My <span>Services</span></h1>
+                <h3>I offer a range of web development and design services to help bring your digital vision to life.</h3>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>GUI Development</h3>
+                    <p>Creating intuitive and visually appealing graphical user interfaces. Designing user-friendly applications with modern interface elements and smooth interactions.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Building complete web applications from scratch using modern technologies. Creating responsive, functional, and scalable websites with clean code architecture.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Front-End Design</h3>
+                    <p>Designing and implementing beautiful, responsive user interfaces. Creating engaging visual experiences with modern CSS, animations, and interactive elements.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
-
+</body>
 </html>
