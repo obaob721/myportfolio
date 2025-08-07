@@ -1,16 +1,28 @@
 *{margin:0;padding:0;}
 html{scroll-behavior: smooth;}
-.main{width:100%;height:100vh;background:url(img/bg.jpg);background-position:center;background-size:cover;position:relative;font-family:sans-serif;padding-top: 80px;transition: all 0.3s ease;}
+body{width:100%;height:100vh;background:url(img/bg.jpg);background-position:center;background-size:cover;position:relative;font-family:sans-serif;padding-top: 80px;transition: all 0.3s ease;}
 .navbar{width: 86%;display: flex;margin: auto;padding: 15px 0;align-items: center;justify-content: space-between;position: fixed;top: -35px;left: 50%;transform: translateX(-50%);z-index: 1000;transition: all 0.3s ease;}
 .navbar .logo{width: 160px;cursor: pointer;transition: transform 0.3s ease;}
 .navbar .logo:hover{transform: scale(1.05);}
+
+#menu-icon{
+    font-size: 3.5rem;
+    color: var(--main-color);
+    display: none;
+}
+
+section{
+    min-height: 100vh;
+    padding: 10rem 5%;
+}
+
 ul{margin: 0;padding: 0;}
 ul li{list-style: none;display: inline-block;padding: 10px 16px;transition: all 0.3s ease;}
 ul li a{font-size: 16px;font-weight: bold;text-decoration: none;color: white;transition: all 0.4s ease;position: relative;}
 ul li a:hover{color: rgb(138, 7, 46);transform: translateY(-2px);}
 ul li a::after{content: '';position: absolute;width: 0;height: 2px;bottom: -5px;left: 0;background-color: rgb(138, 7, 46);transition: width 0.3s ease;}
 ul li a:hover::after{width: 100%;}
-.info{margin-left: 7%;margin-top: 90px;transition: all 0.3s ease;}
+.info{margin-left: 2%;margin-top: 50px;transition: all 0.3s ease;}
 .info h1{font-size: 65px;color:white;transition: all 0.3s ease;}
 .info h3{font-size: 18px;letter-spacing: 1px;line-height: 24px;color: white;transition: all 0.3s ease;}
 .info span{color: rgb(238, 197, 137);transition: all 0.3s ease;}
@@ -18,15 +30,15 @@ ul li a:hover::after{width: 100%;}
 .info a:hover{background: rgb(200, 10, 50);transform: translateY(-3px);box-shadow: 0 5px 15px rgba(185, 6, 45, 0.4);}
 .info a::before{content: '';position: absolute;top: 0;left: -100%;width: 100%;height: 100%;background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);transition: left 0.5s ease;}
 .info a:hover::before{left: 100%;}
-.image{width: 30%;height: 70%;position: absolute;right: 77px;bottom: 0;transition: all 0.3s ease;}
+.image{width: 30%;height: 50%;position: absolute;right: 50px;bottom: 0;transition: all 0.3s ease;}
 .image img{position: absolute;height: 140%;left: 30%;transform: translate(-50%);bottom: 0; pointer-events: none;transition: all 0.3s ease;}
 .image:hover img{transform: translate(-50%) scale(1.05);}
-.social-links{margin-left: 7%;color: rgb(250, 246, 246);margin-right: 60px;font-size: 40px;transition: all 0.3s ease;}
+.social-links{margin-left: 2%;color: rgb(250, 246, 246);margin-right: 60px;font-size: 40px;transition: all 0.3s ease;}
 .social-links a{text-decoration: none;color: rgb(238, 197, 137);transition: all 0.3s ease;display: inline-block;}
 .social-links a:hover{color: rgb(255, 255, 255);transform: translateY(-5px) scale(1.1);}
 .social-links span{color: rgb(238, 197, 137);transition: all 0.3s ease;}
-.about{margin-right: 7%;margin-top: 7%;font-family: sans-serif;transition: all 0.3s ease;display: flex;align-items: center;gap: 50px;flex-direction: row-reverse;}
-.about h1{text-align: left;color: white;transition: all 0.3s ease;font-size: 32px;font-weight: 600;margin-bottom: 20px;letter-spacing: 1px;position: relative;}
+.about{margin-right: 7%;margin-top: 1%;font-family: sans-serif;transition: all 0.3s ease;display: flex;align-items: center;gap: 50px;flex-direction: row-reverse;}
+.about h1{text-align: left; color: white;transition: all 0.3s ease;font-size: 32px;font-weight: 600;margin-bottom: 20px;letter-spacing: 1px;position: relative;}
 .about h1::after{content: '';position: absolute;width: 50px;height: 2px;background: rgb(238, 197, 137);bottom: -8px;left: 0;}
 .about h1 span{color: rgb(231, 203, 151);transition: all 0.3s ease;font-weight: 700;}
 .about h3{font-size: 18px;letter-spacing: 1px;line-height: 26px;color: rgba(255,255,255,0.9);transition: all 0.3s ease;text-align: left;padding: 0;margin-bottom: 15px;}
@@ -36,7 +48,7 @@ ul li a:hover::after{width: 100%;}
 .skill-item{display: flex;align-items: center;margin-bottom: 10px;gap: 10px;}
 .skill-item span:first-child{color: rgb(238, 197, 137);font-size: 16px;font-weight: bold;}
 .skill-item span:last-child{color: rgba(255,255,255,0.9);font-size: 14px;}
-.about-image{width: 22%;margin-top: 0%;margin-left: 8%;transition: all 0.3s ease;border-radius: 50%;border: 5px solid rgb(100, 4, 28);overflow: hidden;box-shadow: 0 0 20px rgba(238, 197, 137, 0.3);flex-shrink: 0;}
+.about-image{width: 22%;margin-top: 0%;margin-right: 8%;transition: all 0.3s ease;border-radius: 50%;border: 5px solid rgb(214, 192, 143);overflow: hidden;box-shadow: 0 0 20px rgba(238, 197, 137, 0.3);flex-shrink: 0;}
 .about-image img{border-radius: 50%;width: 100%;height: auto;display: block;}
 .services{margin: 0 7%;margin-top: 10%;font-family: sans-serif;transition: all 0.3s ease;}
 .services-text{text-align: center;margin-bottom: 50px;}
