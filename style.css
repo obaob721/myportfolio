@@ -67,63 +67,15 @@ ul li a:hover::after{width: 100%;}
 .project-card:hover img {transform: scale(1.05);}
 .project-card p {padding: 18px;font-size: 16px;color: #333;line-height: 1.4;}
 .projects-footer {text-align: center;margin-top: 40px;font-size: 1.2rem;font-style: italic;color: #fffefe;}
-
-.contact {
-    margin: 7%;
-    margin-top: 50px;
-    font-family: sans-serif;
-    text-align: center;
-}
-
-.contact h1 {
-    font-size: 2.5rem;
-    color: #f0bf91;
-    margin-bottom: 10px;
-}
-
-.contact-intro {
-    font-size: 1.1rem;
-    color: #ffffff;
-    margin-bottom: 30px;
-}
-
-.contact-form {
-    max-width: 600px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
+.contact {margin: 7%;margin-top: 50px;font-family: sans-serif;text-align: center;}
+.contact h1 {font-size: 2.5rem;color: #f0bf91; margin-bottom: 10px;}
+.contact-intro {font-size: 1.1rem;color: #ffffff;margin-bottom: 30px;}
+.contact-form {max-width: 600px;margin: auto;display: flex;flex-direction: column;gap: 15px;}
 .contact-form input,
-.contact-form textarea {
-    padding: 12px;
-    font-size: 16px;
-    border: none;
-    border-radius: 8px;
-    outline: none;
-    background: #f3f3f3;
-    transition: all 0.3s ease;
-}
-
+.contact-form textarea {padding: 12px;font-size: 16px;border: none;border-radius: 8px;outline: none;background: #f3f3f3;transition: all 0.3s ease;}
 .contact-form input:focus,
-.contact-form textarea:focus {
-    background: #fff;
-    box-shadow: 0 0 8px rgba(138, 43, 226, 0.5); /* glowing focus */
-}
-
-.contact-form button {
-    padding: 14px;
-    font-size: 16px;
-    color: rgb(255, 255, 255);
-    background: linear-gradient(45deg, #8d0825);
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: bold;
-    box-shadow: 0 0 10px rgba(184, 100, 142, 0.6);
-    transition: all 0.3s ease;
-}
+.contact-form textarea:focus {background: #fff;box-shadow: 0 0 8px rgba(138, 43, 226, 0.5); }
+.contact-form button {padding: 14px;font-size: 16px;color: rgb(255, 255, 255);background: linear-gradient(45deg, #8d0825);border: none;border-radius: 8px;cursor: pointer;font-weight: bold;box-shadow: 0 0 10px rgba(184, 100, 142, 0.6);transition: all 0.3s ease;}
 
 
 
